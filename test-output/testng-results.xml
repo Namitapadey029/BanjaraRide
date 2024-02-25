@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-25T21:20:31 IST" name="Suite" finished-at="2024-02-25T21:23:44 IST" duration-ms="193195">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T21:20:31 IST" name="Test" finished-at="2024-02-25T21:23:44 IST" duration-ms="193195">
+      <class name="Banjararide2.Simple1">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Banjararide2.Simple1@27462a88]" started-at="2024-02-25T21:23:43 IST" name="tearDown" finished-at="2024-02-25T21:23:43 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.appium.java_client.service.local.AppiumDriverLocalService.stop()" because "this.service" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.appium.java_client.service.local.AppiumDriverLocalService.stop()" because "this.service" is null
+at Banjararide2.Simple1.tearDown(Simple1.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.afterRun(TestRunner.java:849)
+at org.testng.TestRunner.run(TestRunner.java:590)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Banjararide2.Simple1 -->
+      <class name="Banjararide2.Ride2">
+        <test-method is-config="true" signature="Bt()[pri:0, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:20:31 IST" name="Bt" finished-at="2024-02-25T21:21:03 IST" duration-ms="31766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bt -->
+        <test-method signature="hirebike()[pri:1, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:21:03 IST" name="hirebike" finished-at="2024-02-25T21:21:40 IST" duration-ms="37496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hirebike -->
+        <test-method signature="Mytools()[pri:2, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:21:40 IST" name="Mytools" finished-at="2024-02-25T21:21:54 IST" duration-ms="13490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mytools -->
+        <test-method signature="more()[pri:3, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:21:54 IST" name="more" finished-at="2024-02-25T21:22:36 IST" duration-ms="41826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- more -->
+        <test-method signature="notification()[pri:4, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:22:36 IST" name="notification" finished-at="2024-02-25T21:22:56 IST" duration-ms="20578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification -->
+        <test-method signature="Termandconditions()[pri:5, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:22:56 IST" name="Termandconditions" finished-at="2024-02-25T21:23:38 IST" duration-ms="41989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Termandconditions -->
+        <test-method signature="callus()[pri:6, instance:Banjararide2.Ride2@67f639d3]" started-at="2024-02-25T21:23:38 IST" name="callus" finished-at="2024-02-25T21:23:43 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callus -->
+      </class> <!-- Banjararide2.Ride2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
